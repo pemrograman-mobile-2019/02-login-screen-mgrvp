@@ -37,6 +37,7 @@
         android:orientation="vertical"
         android:paddingLeft="30dp"
         android:paddingRight="30dp">
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -46,6 +47,19 @@
             android:paddingTop="10dp"
             android:paddingBottom="10dp"
             android:text="E-mail address" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/edit_text_style"
+            android:paddingLeft="15dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Password" />
+
+
 
     </LinearLayout>
 
